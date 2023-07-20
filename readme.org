@@ -1,0 +1,77 @@
+#+TITLE: My Haskell Learning Journey on OpenSUSE
+
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/200px-Haskell-Logo.svg.png][Haskell Logo]]
+
+* Introduction
+
+This repository is my personal learning resource for Haskell programming language on OpenSUSE. As I embark on this journey, I will explore the functional paradigm and develop my Haskell skills on the OpenSUSE operating system.
+
+* Prerequisites
+
+Before starting my Haskell learning journey, I need to ensure that my OpenSUSE system is set up correctly with the following prerequisites:
+
+1. **OpenSUSE Operating System**: I have OpenSUSE installed on my machine. For installation instructions, I can visit the [[https://www.opensuse.org/][OpenSUSE website]].
+
+2. **Package Manager**: OpenSUSE uses `zypper` as its default package manager. To keep it up to date, I can run the following command:
+
+#+begin_src sh
+sudo zypper refresh
+#+end_src
+
+3. **GHC (Glasgow Haskell Compiler)**: GHC is the primary compiler for Haskell. I have already installed GHC using `zypper`:
+
+#+begin_src sh
+sudo zypper install ghc
+#+end_src
+
+4. **Cabals**: Cabal is a package manager for Haskell. I have installed it using `zypper`:
+
+#+begin_src sh
+sudo zypper install cabal-install
+#+end_src
+
+* Getting Started
+
+To begin my Haskell learning journey, I'll follow these steps:
+
+1. **Clone the Repository**: I have already cloned the repository to my local machine:
+
+#+begin_src sh
+git clone https://github.com/your-username/haskell-learning-opensuse.git
+cd haskell-learning-opensuse
+#+end_src
+
+2. **Haskell Setup**: I have set up my Haskell environment by installing the required dependencies using Cabal:
+
+#+begin_src sh
+cabal update
+cabal install --only-dependencies
+#+end_src
+
+3. **Editor**: I use my preferred code editors, which is Emacs and VsCode, to write Haskell code.
+
+* Learning Resources
+
+Throughout my Haskell learning journey, I will utilize the following resources:
+
+1. **Official Haskell Website**: I'll visit the [[https://www.haskell.org/][Haskell official website]] for documentation, tutorials, and guides.
+
+2. **Haskell Wikibook**: The [[https://en.wikibooks.org/wiki/Haskell][Haskell Wikibook]] offers comprehensive tutorials and explanations for beginners.
+
+3. **Learn You a Haskell for Great Good**: I'll read the online book "[[http://learnyouahaskell.com/][Learn You a Haskell for Great Good]]" to grasp the fundamentals.
+
+4. **Haskell Reddit Community**: I might join the [[https://www.reddit.com/r/haskell/][Haskell subreddit]] to ask questions and engage with the Haskell community.
+
+* Personal Notes and Progress
+
+Here, I will keep track of my personal notes, progress, and any specific resources I find helpful during my Haskell learning journey:
+
+- [INSERT YOUR PERSONAL NOTES HERE]
+
+* License
+
+This repository is licensed under the MIT License. See the [[LICENSE][LICENSE]] file for more details.
+
+---
+
+This document will serve as my Haskell learning journal on OpenSUSE. I am excited to dive into the world of functional programming and discover the power of Haskell!
