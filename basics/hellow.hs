@@ -2,4 +2,4 @@
 {-
     * Simplest program
 -}
-print "Hello World"
+main = print "Hello World!"
